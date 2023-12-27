@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-image: url(bg-01-b.jpg);
+    background-size: cover;
+    position: relative;
+
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.container .nav {
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid rgb(172, 171, 171);
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+}
+
+.nav img {
+    height: 100%;
+    width: 15%;
+}
+
+.container .nav .navigation {
+    font-size: 1.2vw;
+    display: flex;
+    padding: 0 8vw;
+    gap: 3vw;
+    cursor: pointer;
+    font-weight: 400;
+    align-items: center;
+}
+
+.container .nav .navigation {
+    font-size: 1.4vw;
+    cursor: pointer;
+
+}
+
+.container .nav .navigation h4 {
+    transition: 1s;
+}
+
+.container .nav .navigation h4:hover {
+    color: #ED3237;
+}
+
+.container .btn-pop {
+    border: none;
+    padding: 7px 22px;
+    border-radius: 5px;
+    align-items: center;
+    background-color: rgb(190, 190, 190);
+    font-size: 1.2vw;
+    font-weight: 700;
+    transition: 2s;
+}
+
+.container .btn-pop:hover {
+    background-color: #ED3237;
+    color: white;
+}
+
+.main-box {
+    height: calc(100% - 60px);
+    width: 100%;
+
+}
+
+.main-box .box {
+    height:80%;
+    width:70%;
+
+    margin:auto;
+    margin-top:10vh;
+    background-image:url(bg-006.jpg);
+    background-size:cover;
+
+    display:flex;
+    border-radius:8px;
+    box-shadow:3px 4px 20px rgb(124, 124, 124);
+    transition: 3s;
+}
+.main-box .box:hover{
+    box-shadow:4px 5px 25px white  ; 
+}
+
+.main-box .box .left {
+    height: 100%;
+    width: 50%;
+
+}
+
+.main-box .box .right {
+    height: 100%;
+    width: 40%;
+    padding-right: 18vw;
+
+
+}
+
+.main-box .box .right img {
+    height: 100%;
+}
+
+.main-box .box .left {
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.main-box .box .left .text h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 10vh;
+    color: #ed3237;
+    font-size: 6vh;
+    padding-left: 4vw;
+
+
+}
+
+.main-box .box .left .text #txt {
+    margin-top: 2vh;
+    color: white;
+    font-size: 4vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 0;
+    padding-left: 4vw;
+
+}
+
+.main-box .box .left .text p {
+    color: white;
+    font-size: 1.2vw;
+    padding-left: 4vw;
+    margin-top: 2vh;
+}
+
+.main-box .box .left .text .btn {
+    padding: .8vw 4vh;
+    border: none;
+    font-size: 1.2vw;
+    font-weight: 800;
+    margin-left: 5vw;
+    margin-top: 3.5vh;
+    border-radius: 2px;
+    background-color: #ED3237;
+    box-shadow: 2px 3px 9px #ED3237;
+    transition: 2s;
+}
+
+.main-box .box .left .text .btn:hover {
+    box-shadow: 3px 4px 13px rgb(255, 255, 255);
+    color: white;
+}
